@@ -12,6 +12,16 @@ breads.get('/', (req, res) => {
           })
       })
 })
+
+// breads.get('/', (req, res) => {
+//   res.render('Index',
+//     {
+//       breads: Bread
+//     }
+//   )
+// res.send(Bread)
+// })
+
 // SHOW
 breads.post('/', (req, res) => {
   if(!req.body.image) {
